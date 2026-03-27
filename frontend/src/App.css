@@ -1,0 +1,19 @@
+/* App-specific styles */
+.gradient-text {
+  background: linear-gradient(135deg, #22d3ee, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.response-content h1 { font-size: 1.875rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 1rem; color: #f8fafc; }
+.response-content h2 { font-size: 1.5rem; font-weight: 600; margin-top: 1.25rem; margin-bottom: 0.75rem; color: #f1f5f9; }
+.response-content h3 { font-size: 1.25rem; font-weight: 600; margin-top: 1rem; margin-bottom: 0.5rem; color: #e2e8f0; }
+.response-content p { margin-bottom: 1rem; color: #94a3b8; }
+.response-content ul, .response-content ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+.response-content li { margin-bottom: 0.5rem; color: #94a3b8; }
+.response-content strong { color: #f8fafc; font-weight: 600; }
+.response-content code { background: #1e293b; padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-family: monospace; font-size: 0.875em; color: #22d3ee; }
+.response-content pre { background: #0f172a; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; margin-bottom: 1rem; border: 1px solid #1e293b; }
+.response-content pre code { background: transparent; padding: 0; color: #e2e8f0; }
+.response-content blockquote { border-left: 4px solid #22d3ee; padding-left: 1rem; font-style: italic; color: #64748b; margin-bottom: 1rem; }
